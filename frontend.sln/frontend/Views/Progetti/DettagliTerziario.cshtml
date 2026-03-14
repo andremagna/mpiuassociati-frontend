@@ -1,0 +1,185 @@
+﻿@model frontend.Models.Projects
+
+@{
+    ViewBag.Title = "DettagliTerziario";
+}
+
+<head>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+</head>
+
+@if (Model.ProjectImages.Count() == 1)
+{
+    <style>
+        #prev {
+            display: none;
+        }
+
+        #next {
+            display: none;
+        }
+    </style>
+}
+
+<div class="swiper-container main-slider loading">
+    <div class="swiper-wrapper">
+        @foreach (var pics in Model.ProjectImages)
+        {
+            <div class="swiper-slide">
+                <figure class="slide-bgimg" style="background-image:url(@pics)">
+                    <img src="@pics" class="entity-img" />
+                </figure>
+                <div class="content">
+                    <p class="title"></p>
+                    <span class="caption">&copy; M+ Associati</span>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="swiper-button-prev swiper-button-white" id="next"></div>
+    <div class="swiper-button-next swiper-button-white" id="prev"></div>
+</div>
+
+<div class="swiper-container nav-slider loading">
+    <div class="swiper-wrapper" role="navigation">
+        @foreach (var picsReply in Model.ProjectImages)
+        {
+            <div class="swiper-slide">
+                <figure class="slide-bgimg" style="background-image:url(@picsReply)">
+                    <img src="@picsReply" class="entity-img" />
+                </figure>
+                <div class="content">
+                    <p class="title"></p>
+                    <span class="caption">&copy; M+ Associati</span>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
+<script src="~/Content/app/js/slider-dettagli.js"></script>
+<iframe src="" width="100%" height="0px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+<div id="app">
+    <div data-reactroot="">
+        <div id="content">
+            <div id="page">
+                <div id="page-content" class="">
+                    <project-component>
+
+                        <div class="center_size" style="margin-bottom: 0;">
+                            <h1 id="center_h1" style="font-family: din; font-weight: 700; text-align: center; text-transform: uppercase; padding: 0 40px;color: #c20000; font-size: 72px; font-weight: bold"> @Model.ProjectName </h1>
+                        </div>
+                        <div class="center_size">
+                            <h1 id="center_h12" style="font-family: din; font-weight: 600; text-align: center; text-transform: uppercase; padding: 0 40px; color: #333; font-size: 35px; font-weight: bold"> @Model.ProjectPlace </h1>
+                        </div>
+
+                        <div class="project-details-body">
+                            <div class="project-details">
+                                <p>
+                                    <strong>Status</strong>
+                                    Ongoing
+                                </p>
+                                <div>
+                                    <p>
+                                        <strong>Client</strong>
+                                        CERN
+                                    </p>
+                                    <p>
+                                        <strong> Design</strong>
+                                        M+ Associati Building Workshop, architects
+                                    </p>
+                                    <p>
+                                        in collaboration with Brodbeck Roulet Architectes Associés (Geneva)
+                                    </p>
+                                    <p>
+                                        <strong> Design team </strong>
+                                        A.Belvedere, L.Piazza (partner and associate in charge)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <div class="paragraphs">
+                                    <p>
+                                        As part of its missions to educate and engage the public in science, and to share knowledge and technology
+                                        with society, CERN is launching the Science Gateway, a new facility for scientific education and outreach.
+                                        The purpose of the project is to create a hub of scientific education and culture to inspire the younger generations
+                                        with the beauty of science. Aimed at engaging audiences of all ages, the building will include inspirational exhibition spaces,
+                                        laboratories for hands-on scientific experiments for children and students from primary to high-school level, and a large
+                                        amphitheatre to host science events for experts and non-experts alike.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="other-projects">
+                            <button id="fetchProjects">Altri Progetti</button>
+                            <div id="projects-page">
+                                <div class="projects-container">
+                                    <div id="projectMainContainer" class="projects">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $('#fetchProjects').click(async function () {
+                                    const apiUrl = "http://localhost:5285/api/project";
+
+                                    try {
+                                        let response = await fetch(apiUrl);
+
+                                        if (response.ok) {
+                                            let json = await response.json();
+
+                                            let filteredProjects = json.filter(obj => @Model.Id !== obj.id && obj.projectParentFilter === 'ARCHITETTURA' && obj.projectChildFilter === 'TERZIARIO');
+
+                                            function getRandomElements(array, num) {
+                                                let shuffled = array.sort(() => 0.5 - Math.random());
+                                                return shuffled.slice(0, num);
+                                            }
+
+                                            let randomFilteredProjects = getRandomElements(filteredProjects, 3);
+
+                                            let projectDetailsHtml = '';
+                                            randomFilteredProjects.forEach(project => {
+                                                projectDetailsHtml += `
+                                                                             <a class="project-item" href="/Progetti/DettagliAeroportuale/${project.id}">
+                                                                                 <div class="project-item-image">
+                                                                                     <div class="single-media gallery-component">
+                                                                                         <figure class="media" style="background-image:url(${project.projectCover})">
+                                                                                             <figcaption>
+                                                                                                 © M+ Associati
+                                                                                             </figcaption>
+                                                                                         </figure>
+                                                                                     </div>
+                                                                                 </div>
+                                                                                 <h1 class="subtitle" style="margin:10px 0">${project.projectName}</h1>
+                                                                                 <h2 class="subtitle" style="margin:0">${project.projectPlace}</h2>
+                                                                                 <div class="button" style="margin-top: 20px">Dettagli</div>
+                                                                             </a>
+                                                                        `;
+                                            });
+
+                                            $('#projectMainContainer').html(projectDetailsHtml);
+                                            //console.log("HTML Content:", projectDetailsHtml);
+                                        } else {
+                                            $('#projectMainContainer').html('<p>Failed to get data from API. Status code: ' + response.status + '</p>');
+                                        }
+                                    } catch (error) {
+                                        $('#projectMainContainer').html('<p>Error: ' + error.message + '</p>');
+                                    }
+                                });
+                            });
+                        </script>
+
+                    </project-component>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

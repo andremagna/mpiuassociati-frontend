@@ -1,0 +1,15 @@
+﻿@using m_associati.Models
+@model Progetti
+
+<div class="container">
+    <div class="one-half left">
+        <h1 class="h1_progettazione">Ingegneria</h1>
+        @Html.ActionLink("Civile", "Civile", "Progetti", null, new { @class = "cta" })
+    </div>
+    <div class="one-half right">
+        <h1 class="h1_progettazione">Architettura</h1>
+        @Html.ActionLink("Infrastrutturale", "Infrastrutturale", "Progetti", null, new { @class = "cta" })
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="~/Content/app/js/progettazione.js"></script>

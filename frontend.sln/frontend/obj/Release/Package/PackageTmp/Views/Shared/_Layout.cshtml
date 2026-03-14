@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M+ Associati</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" id="nav_bar" style=" opacity: 0.9; background-color: black;">
+        <div class="container">
+            <div class="navbar-header">
+                <a>
+                    <img src="~/Images/generals/logo.png" id="logo" onclick="window.location.href='https://localhost:44377/'" />
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Lo Studio", "LoStudio", "Home")</li>
+                    <li class="dropdown has-child">
+                        @Html.ActionLink("Progettazione & Direzione Lavori", "Index", "Progetti", null, new { @class = "dropbtn" })
+                        <div class="dropdown-content">
+                            @Html.ActionLink("Civile", "Civile", "Progetti")
+                            @Html.ActionLink("Infrastrutturale", "Infrastrutturale", "Progetti")
+                        </div>
+                    </li>
+                    <li>@Html.ActionLink("News", "News", "Home")</li>
+                    <li>@Html.ActionLink("Contatti", "Contatti", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

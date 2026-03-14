@@ -1,0 +1,99 @@
+  {
+    "civile": [
+      {
+        "id": "01",
+        "progetto": "Municipio",
+        "descrizioneprogetto": "xxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx",
+        "luogo": "Calvignasco (MI)",
+        "latitudine": "45.312",
+        "longitudine": "9.036",
+        "data": "29 Oct 2019",
+        "filtro": "TERZIARIO",
+        "copertina": "http://www.mpiuassociati.it/images/Civile/IMG_01.jpg",
+        "immagini": [
+          "http://www.mpiuassociati.it/media/k2/galleries/29/IMMAGINE_1.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/29/IMMAGINE_2.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/29/IMMAGINE_3.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/29/IMMAGINE_3.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/29/IMMAGINE_4.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/29/IMMAGINE_5.jpg"
+        ]
+      },
+      {
+        "id": "02",
+        "progetto": "Scuola",
+        "descrizioneprogetto": "xxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxx",
+        "luogo": "Canonica D'Adda (MI)",
+        "latitudine": "45.579",
+        "longitudine": "9.526",
+        "data": "29 Oct 2018",
+        "filtro": "SCUOLA",
+        "copertina": "http://www.mpiuassociati.it/images/Civile/IMG_02.jpg",
+        "immagini": [
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+        ]
+      },
+      {
+        "id": "03",
+        "progetto": "Scuola",
+        "descrizioneprogetto": "xxxxxxxxxxxxx xxxxx xxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxx xxx xxx xxxx xxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "luogo": "Gessate (MI)",
+        "latitudine": "45.552",
+        "longitudine": "9.429",
+        "data": "29 Oct 2017",
+        "filtro": "SCUOLA",
+        "copertina": "http://www.mpiuassociati.it/images/Civile/IMG_03.jpg",
+        "immagini": [
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+        ]
+      },
+      {
+        "id": "04",
+        "progetto": "Asilo Nido",
+        "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "luogo": "Melzo (MI)",
+        "latitudine": "45.499",
+        "longitudine": "9.401",
+        "data": "29 Oct 2017",
+        "filtro": "SCUOLA",
+        "copertina": "http://www.mpiuassociati.it/images/Civile/IMG_04.jpg",
+        "immagini": [
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+        ]
+      },
+      {
+        "id": "05",
+        "progetto": "Asilo Nido",
+        "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "luogo": "Melzo (MI)",
+        "latitudine": "45.499",
+        "longitudine": "9.401",
+        "data": "29 Oct 2017",
+        "filtro": "SCUOLA",
+        "copertina": "http://www.mpiuassociati.it/images/Civile/IMG_04.jpg",
+        "immagini": [
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+          "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+        ]
+      }
+    ]
+  }

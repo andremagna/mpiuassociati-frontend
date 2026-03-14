@@ -1,0 +1,42 @@
+{
+  "infrastrutturale": [
+    {
+      "id": "01",
+      "luogo": "Segrate (MI)",
+      "latitudine": "45.312",
+      "longitudine": "9.036",
+      "progetto": "Passerella Pedonale",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "data": "29 Oct 2019",
+      "copertina": "http://www.mpiuassociati.it/images/Infrastrutture/IMG_01.jpg",
+      "filtro": "STRADE",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_1.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_7.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_8.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_9.jpg"
+      ]
+    },
+    {
+      "id": "02",
+      "luogo": "Cernusco sul Naviglio (MI)",
+      "latitudine": "45.312",
+      "longitudine": "9.036",
+      "progetto": "Strada Comunale",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "data": "29 Oct 2018",
+      "copertina": "http://www.mpiuassociati.it/images/Infrastrutture/IMG_02.jpg",
+      "filtro": "STRADE",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+      ]
+    }
+  ]
+}

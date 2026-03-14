@@ -1,0 +1,106 @@
+{
+  "civile": [
+    {
+      "id": "01",
+      "progetto": "Municipio",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "luogo": "Calvignasco (MI)",
+      "data": "29 Oct 2019",
+      "filtro": "TERZIARIO",
+      "copertina": "http://www.mpiuassociati.it/images/Copertina/IMMAGINE_1.jpg",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+      ]
+    },
+    {
+      "id": "02",
+      "progetto": "Scuola Elementare",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "luogo": "Canonica D'Adda (MI)",
+      "data": "29 Oct 2018",
+      "filtro": "SCUOLA",
+      "copertina": "http://www.mpiuassociati.it/images/Copertina/IMMAGINE_2.jpg",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+      ]
+    },
+    {
+      "id": "03",
+      "progetto": "Scuola Elementare",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "luogo": "Gessate (MI)",
+      "data": "29 Oct 2017",
+      "filtro": "SCUOLA",
+      "copertina": "http://www.mpiuassociati.it/images/Copertina/IMMAGINE_3.jpg",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+      ]
+    },
+    {
+      "id": "04",
+      "progetto": "Asilo Nido",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "luogo": "Melzo (MI)",
+      "data": "29 Oct 2017",
+      "filtro": "SCUOLA",
+      "copertina": "http://www.mpiuassociati.it/images/Copertina/IMMAGINE_4.jpg",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+      ]
+    },
+    {
+      "id": "05",
+      "luogo": "Segrate (MI)",
+      "progetto": "Passerella Pedonale",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "data": "29 Oct 2019",
+      "copertina": "http://www.mpiuassociati.it/images/Copertina/INFRA_1.jpg",
+      "filtro": "STRADE",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+      ]
+    },
+    {
+      "id": "06",
+      "luogo": "Cernusco sul Naviglio (MI)",
+      "progetto": "Strada Comunale",
+      "descrizioneprogetto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "data": "29 Oct 2018",
+      "copertina": "http://www.mpiuassociati.it/images/Copertina/INFRA_2.jpg",
+      "filtro": "STRADE",
+      "immagini": [
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_5.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_6.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_2.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_3.jpg",
+        "http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_7.jpg"
+      ]
+    }
+  ]
+}

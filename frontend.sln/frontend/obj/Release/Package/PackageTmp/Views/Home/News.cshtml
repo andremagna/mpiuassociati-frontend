@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "News";
+}
+
+<header class="main-post-wrapper">
+    <div class="progress-bar progress-bar--primary hide-on-desktop">
+        <div class="progress-bar__fill"></div>
+    </div>
+    <div class="slides">
+        <article class="main-post main-post--active">
+            <div class="main-post__image">
+                <img src="~/Images/home/news/news1.jpg" />
+            </div>
+            <div class="main-post__content">
+                <div class="main-post__tag-wrapper">
+                    <span class="main-post__tag">News</span>
+                </div>
+                <h1 class="main-post__title">Primo Titolo della Sezione News del Sito M+ Associati</h1>
+                <a class="main-post__link" href="#">
+                    <span class="main-post__link-text">sottotitolo prima sezione</span>
+                </a>
+            </div>
+        </article>
+        <article class="main-post main-post--not-active">
+            <div class="main-post__image">
+                <img src="~/Images/home/news/news2.jpg" />
+            </div>
+            <div class="main-post__content">
+                <div class="main-post__tag-wrapper">
+                    <span class="main-post__tag">News</span>
+                </div>
+                <h1 class="main-post__title">Secondo Titolo della Sezione News del Sito M+ Associati</h1>
+                <a class="main-post__link" href="#">
+                    <span class="main-post__link-text">sottotitolo seconda sezione</span>
+                </a>
+            </div>
+        </article>
+        <article class="main-post main-post--not-active">
+            <div class="main-post__image">
+                <img src="~/Images/home/news/news3.jpg" />
+            </div>
+            <div class="main-post__content">
+                <div class="main-post__tag-wrapper">
+                    <span class="main-post__tag">News</span>
+                </div>
+                <h1 class="main-post__title"> Terzo Titolo della Sezione News del Sito M+ Associati</h1>
+                <a class="main-post__link" href="#">
+                    <span class="main-post__link-text">sottotitolo terza sezione</span>
+                </a>
+            </div>
+        </article>
+    </div>
+</header>
+
+<div class="posts-wrapper hide-on-mobile">
+    <article class="post post--active">
+        <div class="progress-bar">
+            <div class="progress-bar__fill"></div>
+        </div>
+        <header class="post__header">
+            <span class="post__tag">News</span>
+            <p class="post__published">01 Gennaio 2020</p>
+        </header>
+        <h2 class="post__title">Descrizione Notizia 1</h2>
+    </article>
+    <article class="post">
+        <div class="progress-bar">
+            <div class="progress-bar__fill"></div>
+        </div>
+        <header class="post__header">
+            <span class="post__tag">News</span>
+            <p class="post__published">12 Dicembre 2019</p>
+        </header>
+        <h2 class="post__title">Descrizione Notizia 2</h2>
+    </article>
+    <article class="post">
+        <div class="progress-bar">
+            <div class="progress-bar__fill"></div>
+        </div>
+        <header class="post__header">
+            <span class="post__tag">News</span>
+            <p class="post__published">08 Agosto 2019</p>
+        </header>
+        <h2 class="post__title">Descrizione Notizia 3</h2>
+    </article>
+</div>
+<script src="~/Content/app/js/news.js"></script>

@@ -1,0 +1,27 @@
+﻿@*@using m_associati.Models
+@model Progetti*@
+
+<style>
+    footer {
+        display: none;
+    }
+</style>
+
+<div class="container">
+    <div class="one-half left">
+        <h1 class="h1_progettazione" style="font-family: 'Abril Fatface', serif;">Ingegneria</h1>
+        @Html.ActionLink("Stradale", "Stradale", "Progetti", null, new { @class = "cta" })
+        @Html.ActionLink("Idraulica", "Idraulica", "Progetti", null, new { @class = "cta2" })
+        @Html.ActionLink("Fognature", "Fognature", "Progetti", null, new { @class = "cta3" })
+        @Html.ActionLink("Aeroportuale", "Aeroportuale", "Progetti", null, new { @class = "cta4" })
+    </div>
+    <div class="one-half right">
+        <h1 class="h1_progettazione" style="font-family: 'Abril Fatface', serif;">Architettura</h1>
+        @Html.ActionLink("Terziario", "Terziario", "Progetti", null, new { @class = "cta" })
+        @Html.ActionLink("Sport", "Sport", "Progetti", null, new { @class = "cta2" })
+        @Html.ActionLink("Scuole", "Scuole", "Progetti", null, new { @class = "cta3" })
+        @Html.ActionLink("Sanità", "Sanita", "Progetti", null, new { @class = "cta4" })
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="~/Content/app/js/progettazione.js"></script>

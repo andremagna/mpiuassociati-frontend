@@ -1,0 +1,41 @@
+﻿@using m_associati.Models
+@model Progetti
+
+@{
+    ViewBag.Title = "Civile";
+}
+
+<div id="app">
+    <div id="main_civileS">
+        <main id="main_civile">
+            <div class="left_side">
+                <h1 style="color: whitesmoke">Ingegneria & Architettura Civile</h1>
+                <h4 style="color: whitesmoke">Do you need the coolest and the most awesome platform to manage your project?! You have walked to the right place!</h4>
+            </div>
+
+        </main>
+    </div>
+    <div class="TitleList" data-loaded="true" style="background-color:whitesmoke;">
+        <div class="Title">
+            <div class="titles-wrapper" data-reactid=".0.2.0.1">
+                @foreach (var proj in Model.Civile)
+                {
+                    <div class="Item" style="background-image:url(@proj.Copertina);">
+                        <div class="overlay">
+                            <div class="title">@proj.Progetto</div>
+                            <div class="rating"><span>@proj.Luogo</span></div>
+                            <div style="text-align:center">
+                                @Html.ActionLink("Dettagli", "DettagliCivile", "Progetti", new { id = proj.Id }, new { id = "maggiori_dettagli" })
+                            </div>
+
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p padding: 0 4%"> <b> &copy; @DateTime.Now.Year - M+ Associati - Via Guido Gozzano 6, Seregno (MB) Italy - P.Iva 06827510964</b> </p>
+</footer>

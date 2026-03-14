@@ -1,0 +1,158 @@
+﻿<div class="container-home">
+    <main>
+        <header>
+            <div class="title">
+                <h1>M+ <span>Associati</span></h1>
+                <p>Ingegneria & Architettura</p>
+            </div>
+
+            <div class="options">
+                <div class="date"><span>Since</span></div>
+                <div class="buttons">
+
+                    @Html.ActionLink("Progettazione", "Index", "Progetti", null, new { @class = "a_headers" })
+                    @Html.ActionLink("Contattaci", "Contatti", "Home", null, new { @class = "a_headers" })
+
+                </div>
+            </div>
+        </header>
+
+        <section id="sec">
+            <h1 style="color: whitesmoke; font-size: 50px; padding-bottom: 50px;">Servizi Offerti</h1>
+            <ul>
+                <li style="width:400px;">
+                    <h3>Progettazione</h3>
+                    <p>Lo Studio è organizzato per svolgere in autonomia attività di progettazione strutturale sia nell’ambito dell’edilizia civile che industriale, relativamnente a nuove costruzioni e per costruzioni esistenti.</p>
+                </li>
+                <li style="width:400px" ;>
+                    <h3>Direzione Lavori</h3>
+                    <p>La direzione lavori strutturale è attuata attraverso un susseguirsi di verifiche, analisi, sopralluoghi, prove, riunioni, verbalizzazioni e attività che portano alla stesura finale della Relazione a Strutture Ultimate che rappresenta l’atto finale del processo.</p>
+                </li>
+                <li style="width:400px" ;>
+                    <h3>Collaudi</h3>
+                    <p> Nel corso della sua carriera di oltre 30 anni lo Studio ha eseguito numerosi collaudi strutturali sia per strutture in c.a. tradizionale o precompresso che per strutture in acciaio. </p>
+                </li>
+            </ul>
+        </section>
+
+        <div id="articles">
+            <article id="article-three">
+                <div>
+                    <span class="topic">soddisfazione garantita</span>
+                </div>
+            </article>
+
+            <article id="article-four">
+                <div>
+                    <span class="topic">consulenza professionale</span>
+                </div>
+            </article>
+        </div>
+
+        <section id="sec" style="background-color: white; padding-left:0 !important; padding-right:0 !important;">
+            <h1 style="color: #222; font-size: 50px; margin-bottom: 50px">Settori di Competenza</h1>
+            <div>
+                @Html.ActionLink("Strade", "Civile", "Progetti", null, new { @class = "home_btn" })
+                @Html.ActionLink("Ponti", "Civile", "Progetti", null, new { @class = "home_btn" })
+                @Html.ActionLink("Scuole", "Civile", "Progetti", null, new { @class = "home_btn" })
+                @Html.ActionLink("Aereoporti", "Civile", "Progetti", null, new { @class = "home_btn" })
+                @Html.ActionLink("Ospedali", "Civile", "Progetti", null, new { @class = "home_btn" })
+            </div>
+        </section>
+    </main>
+</div>
+
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg" />
+    </div>
+
+    <div class="mySlides fade">
+        <img src="http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_3.jpg" />
+    </div>
+
+    <div class="mySlides fade">
+        <img src="http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg" />
+    </div>
+
+    <div class="mySlides fade">
+        <img src="http://www.mpiuassociati.it/media/k2/galleries/15/IMMAGINE_3.jpg" />
+    </div>
+
+    <div class="mySlides fade">
+        <img src="http://www.mpiuassociati.it/media/k2/galleries/32/IMMAGINE_4.jpg" />
+    </div>
+</div>
+
+<div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+<script src="~/Content/app/js/slider.js"></script>
+
+
+<div id="articles">
+    <div id="more-articles">
+        <article id="article-six">
+            <div>
+                <header>
+                    <span class="topic-black">News</span>
+                    <time datetime="2015-06-05">june 5 2015</time>
+                </header>
+                <section>
+                    <p>MTB A winner has been crowned at Fort William, but if you missed the action we've got it all here.</p>
+                </section>
+            </div>
+            <img src="https://images.pexels.com/photos/90454/pexels-photo-90454.jpeg?h=350&auto=compress&cs=tinysrgb" alt="">
+        </article>
+
+        <article id="article-seven">
+            <div>
+                <header>
+                    <span class="topic-black">News</span>
+                    <time datetime="2015-06-05">june 5 2015</time>
+                </header>
+                <section>
+                    <p>BMX Behind-the-scenes photos of Tyler Fernengel's BMX strret session inside the abandoned stadium.</p>
+                </section>
+            </div>
+            <img src="https://images.pexels.com/photos/163367/olympic-stadium-berlin-1936-symmetrical-163367.jpeg?h=350&auto=compress&cs=tinysrgb" alt="">
+        </article>
+
+        <ul id="most-recent">
+            <span class="topic-black">Collaborazioni</span>
+            <li>
+                <img src="https://coupondigitale.com/wp-content/uploads/2017/11/trenitalia.png" alt="">
+                <a href="#"> Trenitalia </a>
+            </li>
+            <li>
+                <img src="https://www.ilgazzettinodelviaggiatore.it/magazine/images/0-AA.CONFBS/0.1.SACBO/01.ELITE/oriosacbo-.jpg" alt="">
+                <a href="#"> S.A.C.B.O.</a>
+            </li>
+            <li>
+                <img src="https://www.milanomusicweek.it/app/uploads/2018/11/sea-ma-o_cps-2.png" alt="">
+                <a href="#">SEA</a>
+            </li>
+            <li>
+                <img src="data:image/jpeg;base64,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" alt="">
+                <a href="#"> Città Metropolitana di Milano</a>
+            </li>
+            <li>
+                <img src="https://i0.wp.com/ecoinformazioni.com/wp-content/uploads/2018/02/comunecomo.jpg?fit=1024%2C626&ssl=1"><a href="#"> Comune di Como </a>
+            </li>
+            <li>
+                <img src="https://s3.eu-central-1.amazonaws.com/smau-s3bucket/tmp/image-thumbnails/Imported/SuccessStory/image-thumb__3717__success_story-show-image/comune_monza_1_50973.jpeg" alt="">
+                <a href="#"> Comune di Monza </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+<footer>
+    <p> <b> &copy; @DateTime.Now.Year - M+ Associati - Via Guido Gozzano 6, Seregno (MB) Italy - P.Iva 06827510964</b> </p>
+</footer>
+

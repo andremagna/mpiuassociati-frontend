@@ -1,0 +1,48 @@
+﻿@model List<frontend.Models.Projects>
+
+@{
+    ViewBag.Title = "Fognature";
+}
+
+<div id="main_ingegneriaS">
+    <main id="main_ingegneria">
+        <div class="left_side">
+            <h1 style="font-family: 'Abril Fatface', serif;">Ingegneria Fognaria</h1>
+            <h4 style="color: #333; font-weight: 600">Do you need the coolest and the most awesome platform to manage your project?! You have walked to the right place!</h4>
+        </div>
+
+    </main>
+</div>
+
+<div id="app" style="background-color: white">
+    <div data-reactroot="">
+        <div id="content">
+            <div id="page">
+                <div id="page-content" class="">
+                    <div id="projects-page">
+                        <div class="projects-container">
+                            <div class="projects">
+                                @foreach (var proj in Model)
+                                {
+                                    <a class="project-item" href="DettagliAeroportuale/@proj.Id">
+                                        <div class="project-item-image">
+                                            <div class="single-media gallery-component">
+                                                <figure class="media" style="background-image:url(@proj.ProjectCover)">
+                                                    <figcaption>
+                                                        © M+ Associati
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <h1 class="subtitle" style="margin:10px 0">@proj.ProjectName</h1>
+                                        <h2 class="subtitle" style="margin:0">@proj.ProjectPlace</h2>
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,158 @@
+﻿#provadelsecolo {
+    background-color: #000000;
+    padding:50px 0;
+}
+
+a {
+    color: #222;
+    font-weight: 600;
+}
+
+.dropbtn {
+    font-weight: bold;
+}
+
+#logo {
+    width: 40%;
+    height: 40%;
+    padding-top: 1%;
+    margin-left: 15%;
+}
+
+li {
+    float: left;
+}
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+    }
+
+        li a:hover, .dropdown:hover .dropbtn {
+            width: 100%;
+            background-color: transparent;
+            font-weight: bold;
+        }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 50px;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.icon-index{
+    width:30px;
+}
+
+.icon-contatti {
+    width: 35px;
+}
+
+.icon-pdf {
+    width: 25px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.mySlides {
+    display: none;
+}
+
+#h2 {
+    color: whitesmoke;
+}
+
+img {
+    vertical-align: middle;
+    max-width: -webkit-fill-available;
+}
+
+.middle {
+    background-color: dimgray;
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

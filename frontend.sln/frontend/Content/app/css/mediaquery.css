@@ -1,0 +1,42 @@
+﻿/*  Grafico Risusltati Ottenuti */
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+    #provadelsecolo {
+        display: none;
+    }
+}
+
+/* Gestione Sfondo HomePage */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   body {
+        /*padding-top: 11% !important;*/
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    #sec {
+        /*height: 100vh !important;*/
+        padding: 5% !important;
+    }
+
+    #provadelsecolo {
+        height: 100vh;
+        padding: 5%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 686px) {
+    #sec ul {
+        flex-flow: row wrap;
+    }
+
+    #sec_contatti {
+        flex-flow: row wrap;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1300px) {
+    .portfolio-item {
+        margin: 0 10px;
+        float: left;
+        width: 20% !important;
+        position: relative;
+    }
+}

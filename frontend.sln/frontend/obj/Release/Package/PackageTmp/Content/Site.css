@@ -1,0 +1,80 @@
+﻿body {
+    padding-top: 61px;
+    /*padding-bottom: 20px;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px; /* 15px */
+    padding-right: 0px; /* 15px */
+    padding-top: 0%; /* 40px */
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #nav_bar > div > div > ul > li {
+        width: 100%;
+    }
+
+    .has-child {
+        position: relative;
+    }
+
+    .has-child::before {
+        background-image: url('../Images/generals/angle-down.svg');
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 28px;
+        z-index: 99;
+        right: 3%;
+        background-repeat: no-repeat;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    body {
+        padding-top: 87px;
+    }
+
+    footer {
+        display: -webkit-box;
+        text-align: center;
+         display: flex; 
+        width: 100%;
+         -webkit-box-pack: center; 
+         justify-content: center; 
+        -webkit-box-align: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: black;
+        color: #9d9d9d;
+        height: 150px;
+    }
+
+    .container-home main > header .title h1 {
+        font-size: 47px;
+    }
+
+    .home_btn {
+        display: inline-grid;
+    }
+}
+
+.container {
+    width: 100%;
+}

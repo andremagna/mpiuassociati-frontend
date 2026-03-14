@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M+ Associati</title>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="icon" href="~/Images/generals/logo.png">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<script src="~/Content/app/js/loader.js"></script>
+<body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+    <header class="main-header" style="top:0; background-color: black;border-color: #080808;">
+        <div class="container">
+            <div style="text-align: right">
+                <i class="fa fa-envelope-open-o" style="color: #fff; padding: 0 12px; font-size: 0.7em" aria-hidden="true"><b> studio@mpiuassociati.it</b></i>
+                <i class="fa fa-phone" style="color: #fff; padding: 0 12px; font-size: 0.7em" aria-hidden="true"><b> (+39) 0362 221543</b> </i>
+                <i class="fa fa-map-marker" style="color: #fff; padding: 0 12px; font-size: 0.7em" aria-hidden="true"><b> Via Guido Gozzano 6, Seregno (MB)</b> </i>
+            </div>
+
+            <nav class="navbar navbar-expand-lg main-nav px-0" id="navbar">
+                <a href="/">
+                    <img src="~/Images/generals/logo.png" id="logo-sm" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar icon-bar-1"></span>
+                    <span class="icon-bar icon-bar-2"></span>
+                    <span class="icon-bar icon-bar-3"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    <ul class="navbar-nav ml-auto text-uppercase f1">
+                        <li>
+                            @Html.ActionLink("Home", "Index", "Home", null, new { @class = "active active-first" })
+                        </li>
+                        <li>
+                            @Html.ActionLink("Lo Studio", "LoStudio", "Home", null, new { @class = "active active-first" })
+                        </li>
+                        <li>
+                            @Html.ActionLink("Ingegneria & Architettura", "Index", "Progetti", null, new { @class = "active active-first" })
+                        </li>
+                        <li>
+                            @Html.ActionLink("Coordinameto Sicurezza", "CoordinamentoSicurezza", "Home", null, new { @class = "active active-first" })
+                        </li>
+                        <li>
+                            @Html.ActionLink("Direzione Lavori", "DirezioneLavori", "Home", null, new { @class = "active active-first" })
+                        </li>
+                        <li>
+                            @Html.ActionLink("Contatti", "Contatti", "Home", null, new { @class = "active active-first" })
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer class="page-footer font-small blue pt-4" style="padding: 0 50px; height:auto;">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row" style="text-align:center;">
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <i class="fa fa-home" style="color: #fff; padding:10px; font-size: 1.5em;"> </i>
+
+                    <ul class="list-unstyled">
+                        <li style="width:100%">
+                            @Html.ActionLink("Home", "Index", "Home")
+                        </li>
+                        <li style="width:100%">
+                            @Html.ActionLink("Lo Studio", "LoStudio", "Home")
+                        </li>
+                        <li style="width:100%">
+                            @Html.ActionLink("Contatti", "Contatti", "Home")
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-3">
+                </div>
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <i class="fa fa-bars" style="color: #fff; padding:10px; font-size: 1.5em;"> </i>
+
+                    <ul class="list-unstyled">
+                        <li style="width:100%">
+                            @Html.ActionLink("Ingegneria & Architettura", "Index", "Progetti")
+                        </li>
+                        <li style="width:100%">
+                            @Html.ActionLink("Coordinamento Sicurezza", "CoordinamentoSicurezza", "Home")
+                        </li>
+                        <li style="width:100%">
+                            @Html.ActionLink("Direzione Lavori", "DirezioneLavori", "Home")
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer>
+        <p class="footer-scritta"> <b> &copy; @DateTime.Now.Year - M+ Associati - Via Guido Gozzano 6, Seregno (MB) Italy - P.Iva 06827510964</b> </p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
