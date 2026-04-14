@@ -1,4 +1,4 @@
-# M+Associati – Frontend Web Application
+# M+Associati – Frontend (ASP.NET MVC Web Application)
 
 ![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-5.3-blue)
 ![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.x-purple)
