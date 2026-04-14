@@ -32,7 +32,7 @@ HomeController / ProgettiController
         ↓
 Models (Projects.cs)
         ↓
-Backend API (mpiuassociati-backend)  ← REST calls for project data
+Backend API (mpiuassociati-backend)
 ```
 
 ---
@@ -48,22 +48,22 @@ mpiuassociati-frontend/
         ├── Web.config
         │
         ├── Controllers/
-        │   ├── HomeController.cs       ← Home, LoStudio, Contatti, Servizi
-        │   └── ProgettiController.cs   ← Project portfolio routing
+        │   ├── HomeController.cs
+        │   └── ProgettiController.cs
         │
         ├── Models/
         │   └── Projects.cs
         │
         ├── Views/
         │   ├── Home/
-        │   │   ├── Index.cshtml        ← Homepage
-        │   │   ├── LoStudio.cshtml     ← Team page
-        │   │   ├── Contatti.cshtml     ← Contact page
+        │   │   ├── Index.cshtml
+        │   │   ├── LoStudio.cshtml
+        │   │   ├── Contatti.cshtml
         │   │   ├── DirezioneLavori.cshtml
         │   │   └── CoordinamentoSicurezza.cshtml
         │   │
         │   ├── Progetti/
-        │   │   ├── Index.cshtml        ← Portfolio index
+        │   │   ├── Index.cshtml
         │   │   ├── Stradale.cshtml
         │   │   ├── Aeroportuale.cshtml
         │   │   ├── Idraulica.cshtml
@@ -72,18 +72,18 @@ mpiuassociati-frontend/
         │   │   ├── Scuole.cshtml
         │   │   ├── Sport.cshtml
         │   │   ├── Terziario.cshtml
-        │   │   └── Dettagli*.cshtml    ← Project detail pages
+        │   │   └── Dettagli*.cshtml
         │   │
         │   └── Shared/
-        │       └── _Layout.cshtml      ← Master layout
+        │       └── _Layout.cshtml
         │
         ├── Content/
         │   └── app/
-        │       ├── css/               ← Page-specific stylesheets
-        │       └── js/                ← Page-specific scripts
+        │       ├── css/ 
+        │       └── js/
         │
-        ├── Scripts/                   ← Bootstrap, jQuery, Validate
-        ├── Images/                    ← Static assets
+        ├── Scripts/
+        ├── Images/
         └── App_Start/
             ├── RouteConfig.cs
             ├── BundleConfig.cs
